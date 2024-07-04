@@ -1,0 +1,67 @@
+/* src/App.css */
+.app-header {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.clubes-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+.app{
+  justify-content: center;
+  align-items: center ;
+}
+#clube{
+  
+  align-items: center;
+  justify-content: center;
+}
+.club-card {
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+#titulo{
+  text-align: center;
+  font-weight: bolder;
+}
+.apelido{
+font-weight: bold;
+}
+.club-card img {
+  width: 60px;
+  height: 60px;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+
+.club-info {
+  flex: 1;
+}
+.clube {
+  margin: 90px;
+  padding: 10px;
+  border: 2px solid #2c2525;
+  border-radius: 1px;
+  width: 120px;
+  text-align: center;
+}
+
+.clube img {
+  width: 60px;
+  height: 60px;
+}
+
+@media (max-width: 768px) {
+  .club-list {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
+}
